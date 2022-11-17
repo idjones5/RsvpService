@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {
+
+    // controller
+
     @RequestMapping(value = "/")
 
     public String index() {
